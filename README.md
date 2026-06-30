@@ -128,6 +128,5 @@ New-AzSqlVM -Name $vm.Name -ResourceGroupName $vm.ResourceGroupName -Location $v
 | **Azure Key Vault** | Servicio de Azure para almacenar y gestionar secretos, claves y certificados de forma segura. |
 
 ---
----
 Mario Fribla
 ***Ingeniero Cloud***
