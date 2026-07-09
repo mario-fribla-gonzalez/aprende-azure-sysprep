@@ -98,7 +98,7 @@ Después de que la nueva VM esté en funcionamiento, realice los siguientes ajus
 
 Una vez que haya verificado que la nueva VM funciona correctamente, puede:
 
-*   **Eliminar la imagen** que ya no necesite para ahorrar costos.
+*   **Eliminar la imagen** que ya no se necesita para ahorrar costos.
 *   **Eliminar los recursos** de la VM original que fueron liberados.
 
 ---
