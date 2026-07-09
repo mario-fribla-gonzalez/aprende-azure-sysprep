@@ -74,6 +74,7 @@ El proceso de captura libera los recursos de la VM original (discos, NIC, etc.) 
 
 1.  **Elimine los recursos antiguos** de la VM original, ya no son necesarios (discos, tarjetas de red).
 <br>
+
 2.  **Cree una nueva VM a partir de la imagen** utilizando el Portal de Azure, CLI o PowerShell.
 
     *   **Configure la nueva VM:**
@@ -82,7 +83,7 @@ El proceso de captura libera los recursos de la VM original (discos, NIC, etc.) 
         *   **No incluya una dirección IP pública** a menos que sea estrictamente necesario.
         *   **Deshabilite el diagnóstico de arranque.**
         *   **Habilite la configuración de diagnóstico** para logs, seleccionando una cuenta de almacenamiento existente (ej. `stlogs**log**xxxxxx`).
-        
+
     *   **Verifique el nombre de host:** Cambie el nombre de host de la nueva VM para que coincida con el estándar (ej. de `qa-erpmngsvc01` a `erpmngsvc01`).
 ---
 
