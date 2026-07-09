@@ -53,7 +53,7 @@ Antes de comenzar, registre los datos de la VM que servirá como origen para la 
 Una vez que la VM esté apagada, debe marcarla como "Generalizada" en Azure para poder crear una imagen a partir de ella.
 
 1.  Abra una sesión de **PowerShell** (local o en Azure Cloud Shell).
-
+<br>
 2.  Conéctese a su suscripción de Azure y ejecute:
 
     ```powershell
@@ -73,7 +73,6 @@ Una vez que la VM esté apagada, debe marcarla como "Generalizada" en Azure para
 El proceso de captura libera los recursos de la VM original (discos, NIC, etc.) para crear una imagen reutilizable.
 
 1.  **Elimine los recursos antiguos** de la VM original, ya no son necesarios (discos, tarjetas de red).
-<br>
 
 2.  **Cree una nueva VM a partir de la imagen** utilizando el Portal de Azure, CLI o PowerShell.
 
