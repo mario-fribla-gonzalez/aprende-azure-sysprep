@@ -53,7 +53,7 @@ Antes de comenzar, registre los datos de la VM que servirá como origen para la 
 Una vez que la VM esté apagada, debe marcarla como "Generalizada" en Azure para poder crear una imagen a partir de ella.
 
 1.  Abra una sesión de **PowerShell** (local o en Azure Cloud Shell).
-<br>
+
 2.  Conéctese a su suscripción de Azure y ejecute:
 
     ```powershell
