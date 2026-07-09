@@ -73,9 +73,7 @@ Una vez que la VM esté apagada, debe marcarla como "Generalizada" en Azure para
 El proceso de captura libera los recursos de la VM original (discos, NIC, etc.) para crear una imagen reutilizable.
 
 1.  **Elimine los recursos antiguos** de la VM original, ya no son necesarios (discos, tarjetas de red).
-
 2.  **Cree una nueva VM a partir de la imagen** utilizando el Portal de Azure, CLI o PowerShell.
-
     *   **Configure la nueva VM:**
         *   Use la misma **información de red** (Vnet, Subred) y **tamaño** que la VM original.
         *   **No cambie la configuración de discos.**
